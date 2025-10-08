@@ -15,12 +15,9 @@ Dokumen ini menjadi wadah utama untuk menampilkan contoh List, Table, dan Form.
 
 ### Langkah 2 - Membuat Ordered, Unordered, dan Form List
 Menambahkan tiga jenis list pada HTML:
-
-- Unordered List (<ul>) → daftar dengan simbol
-
-- Ordered List (<ol>) → daftar bernomor
-
-- Description List (<dl>) → daftar dengan keterangan
+- Unordered List (`<ul>`) → daftar dengan simbol
+- Ordered List (`<ol>`) → daftar bernomor
+- Description List (`<dl>`) → daftar dengan keterangan
 
 ```html
 <section id="order-list"> 
