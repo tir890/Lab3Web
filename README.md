@@ -8,12 +8,12 @@ NIM : 312410474
 
 Mata Kuliah : Pemrograman Web
 
-### Langkah 1 – Membuat Dokumen HTML
+### Membuat Dokumen HTML
 
 Saya membuat file `lab4_html_lanjutan.html` berisi struktur dasar HTML dengan tag `<html>`, `<head>`, dan `<body>`.
 Dokumen ini menjadi wadah utama untuk menampilkan contoh List, Table, dan Form.
 
-### Langkah 2 - Membuat Ordered, Unordered, dan Form List
+### Membuat Ordered, Unordered, dan Form List
 Menambahkan tiga jenis list pada HTML:
 - Unordered List (`<ul>`) → daftar dengan simbol
 - Ordered List (`<ol>`) → daftar bernomor
@@ -54,3 +54,5 @@ Menambahkan tiga jenis list pada HTML:
 ```
 
 ![Gambar Tampilan](https://github.com/tir890/Lab3Web/blob/788efe465c00edea140ad8666634bdd8c5f4f3ac/Lab3Web/empat.png)
+
+### Membuat Tabel
