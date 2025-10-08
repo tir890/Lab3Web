@@ -52,3 +52,5 @@ Menambahkan tiga jenis list pada HTML:
  </dl> 
 </section>
 ```
+
+!(https://github.com/tir890/Lab3Web/blob/788efe465c00edea140ad8666634bdd8c5f4f3ac/Lab3Web/empat.png)
