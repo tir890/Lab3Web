@@ -53,8 +53,9 @@ Menambahkan tiga jenis list pada HTML:
 </section>
 ```
 
-#### Tampilan Web
+### Tampilan Web
 ![Gambar Tampilan](https://github.com/tir890/Lab3Web/blob/788efe465c00edea140ad8666634bdd8c5f4f3ac/Lab3Web/empat.png)
+Gambar 1.1
 
 ### Membuat Tabel
 
@@ -75,3 +76,6 @@ Lalu tambahkan elemen `<table>` untuk menyajikan data dalam bentuk baris dan kol
 </body> 
 </html>
 ```
+
+### Tampilan Web
+![Tampilan Tabel](https://github.com/tir890/Lab3Web/blob/fbe8f0b137183736a393b612da0d0c9665e5f1d8/Lab3Web/enam.png)
