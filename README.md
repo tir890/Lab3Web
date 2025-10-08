@@ -14,9 +14,9 @@ Saya membuat file **Lab3Web** berisi struktur dasar HTML folder ini menjadi wada
 ### Membuat Ordered, Unordered, dan Description List
 Membuat dokumen HTML dengan nama **file lab3_list.html**.
 Menambahkan tiga jenis list pada HTML:
-- Unordered List (`<ul>`) → daftar dengan simbol
-- Ordered List (`<ol>`) → daftar bernomor
-- Description List (`<dl>`) → daftar dengan keterangan
+- Unordered List (`<ul>`) untuk daftar dengan simbol
+- Ordered List (`<ol>`) untuk daftar bernomor
+- Description List (`<dl>`) untuk daftar dengan keterangan
 
 ```html
 <section id="order-list"> 
