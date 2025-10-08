@@ -11,7 +11,7 @@ Mata Kuliah : Pemrograman Web
 ### Membuat Folder HTML
 Saya membuat file **Lab3Web** berisi struktur dasar HTML folder ini menjadi wadah utama untuk menampilkan contoh List, Table, dan Form.
 
-### Membuat Ordered, Unordered, dan Form List
+### Membuat Ordered, Unordered, dan Description List
 Membuat dokumen HTML dengan nama **file lab3_list.html**.
 Menambahkan tiga jenis list pada HTML:
 - Unordered List (`<ul>`) → daftar dengan simbol
@@ -52,7 +52,7 @@ Menambahkan tiga jenis list pada HTML:
 </section>
 ```
 
-### Tampilan Web
+### Tampilan Web Ordered, Unordered, dan Description List
 ![Gambar Tampilan](https://github.com/tir890/Lab3Web/blob/788efe465c00edea140ad8666634bdd8c5f4f3ac/Lab3Web/empat.png)
 
 ### Membuat Tabel
@@ -104,14 +104,73 @@ Kode yang digunakan untuk penggabungan sel data, dengan menggunakan atribut `<ro
 </table>
 ```
 
-### Tampilan Web
+### Tampilan Web Tabel
 ![Tampilan Tabel](https://github.com/tir890/Lab3Web/blob/fbe8f0b137183736a393b612da0d0c9665e5f1d8/Lab3Web/enam.png)
 
 ### Membuat Form
-
 Sama seperti langkah-langkah sebelumnya yaitu membuat file baru dengan nama **lab3_form.html**. 
 Membuat form HTML untuk menerima input pengguna menggunakan tag `<form>`.
 Elemen yang digunakan:
 - `<input type="text">` untuk teks
 - `<input type="password">` untuk sandi
 - `<input type="submit">` untuk tombol kirim
+
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>HTML Lanjutan</title> 
+</head> 
+<body> 
+ <header> 
+ <h1>Membuat List</h1> 
+ </header> 
+</body> 
+</html>
+
+<form action="proses.php" method="post"> 
+ <fieldset> 
+ <legend>Data Pelanggan</legend> 
+ <p> 
+ <label for="nama">Nama</label> 
+ <input type="text" id="nama" name="nama"> 
+ </p> 
+ <p> 
+ <label for="alamat">Alamat</label> 
+ <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>  </p> 
+ <p> 
+ <label>Jenis Kelamin</label> 
+ <input id="jk_l" type="radio" name="kelamin" value="L" /><label for="jk_l">Laki-laki</label> 
+ <input id="jk_p" type="radio" name="kelamin" value="P" /><label
+
+for="jk_p">Perempuan</label> 
+ </p> 
+ <p><input type="submit" value="Login"></p> 
+ </fieldset> 
+</form>
+```
+
+Yang terakhir adalah menambahkan kode CSS agar tampilan web menjadi berwarna dan interaktif.
+
+```css
+<style> 
+ form p > label { 
+ display: inline-block; 
+ width: 100px; 
+ } 
+ form input[type="text"], form textarea { 
+ border: 1px solid #197a43; 
+ } 
+ form input[type="submit"] { 
+ border: 1px solid #197a43; 
+ background-color: #197a43; 
+ color: #ffffff; 
+ font-weight: bold; 
+ padding: 5px 15px; 
+ } 
+</style>
+```
+
+### Tampilan Web Formulir
+![Gambar Tampilan Formulir](https://github.com/tir890/Lab3Web/blob/98ab8fdb3cbf12f626eb234e2e362e96954586f3/Lab3Web/delapan.png)
