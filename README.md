@@ -176,7 +176,7 @@ Yang terakhir adalah menambahkan kode CSS agar tampilan web menjadi berwarna dan
 ![Gambar Tampilan Formulir](https://github.com/tir890/Lab3Web/blob/98ab8fdb3cbf12f626eb234e2e362e96954586f3/Lab3Web/delapan.png)
 
 ## Pertanyaan dan Tugas 
-1. Buatlah form yang menampilkan ***dropdown*** menu dan ***listbox*** dengan _multiple selection_.
+> 1. Buatlah form yang menampilkan ***dropdown*** menu dan ***listbox*** dengan _multiple selection_.
 
 Kode yang digunakan,
 ```html
