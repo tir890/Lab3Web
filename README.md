@@ -174,3 +174,31 @@ Yang terakhir adalah menambahkan kode CSS agar tampilan web menjadi berwarna dan
 
 ### Tampilan Web Formulir
 ![Gambar Tampilan Formulir](https://github.com/tir890/Lab3Web/blob/98ab8fdb3cbf12f626eb234e2e362e96954586f3/Lab3Web/delapan.png)
+
+## Pertanyaan dan Tugas 
+1. Buatlah form yang menampilkan ***dropdown*** menu dan ***listbox*** dengan _multiple selection_.
+
+Kode yang digunakan,
+```html
+<p>
+        <label for="jurusan">Jurusan</label>
+        <select id="jurusan" name="jurusan">
+          <option value="TI">Teknik Informatika</option>
+          <option value="SI">Sistem Informasi</option>
+          <option value="RPL">Rekayasa Perangkat Lunak</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="hobi">Hobi</label>
+        <select id="hobi" name="hobi[]" multiple size="4">
+          <option value="membaca">Membaca</option>
+          <option value="menggambar">Menggambar</option>
+          <option value="ngoding">Ngoding</option>
+          <option value="gaming">Gaming</option>
+        </select>
+      </p>
+```
+
+### Tampilan Dropdown menu dan Listbox dengan Multiple Selection
+![Gambar Dropdown dan Listbox](https://github.com/tir890/Lab3Web/blob/5ac496f7c0eeff29af0064bb7ba029cda4603fe1/dropdown%20dan%20listbox.png)
