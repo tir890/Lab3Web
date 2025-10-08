@@ -56,3 +56,21 @@ Menambahkan tiga jenis list pada HTML:
 ![Gambar Tampilan](https://github.com/tir890/Lab3Web/blob/788efe465c00edea140ad8666634bdd8c5f4f3ac/Lab3Web/empat.png)
 
 ### Membuat Tabel
+
+Untuk membuat tabel buatlah file baru dengan nama lab3_tabel.html.
+Lalu tambahkan elemen `<table>` untuk menyajikan data dalam bentuk baris dan kolom menggunakan tag `<tr>`, `<th>`, dan `<td>`.
+
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>HTML Lanjutan</title> 
+</head> 
+<body> 
+ <header> 
+ <h1>Membuat Table</h1> 
+ </header> 
+</body> 
+</html>
+```
