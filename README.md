@@ -8,12 +8,11 @@ NIM : 312410474
 
 Mata Kuliah : Pemrograman Web
 
-### Membuat Dokumen HTML
-
-Saya membuat file `lab4_html_lanjutan.html` berisi struktur dasar HTML dengan tag `<html>`, `<head>`, dan `<body>`.
-Dokumen ini menjadi wadah utama untuk menampilkan contoh List, Table, dan Form.
+### Membuat Folder HTML
+Saya membuat file **Lab3Web** berisi struktur dasar HTML folder ini menjadi wadah utama untuk menampilkan contoh List, Table, dan Form.
 
 ### Membuat Ordered, Unordered, dan Form List
+Membuat dokumen HTML dengan nama **file lab3_list.html**.
 Menambahkan tiga jenis list pada HTML:
 - Unordered List (`<ul>`) → daftar dengan simbol
 - Ordered List (`<ol>`) → daftar bernomor
@@ -55,11 +54,10 @@ Menambahkan tiga jenis list pada HTML:
 
 ### Tampilan Web
 ![Gambar Tampilan](https://github.com/tir890/Lab3Web/blob/788efe465c00edea140ad8666634bdd8c5f4f3ac/Lab3Web/empat.png)
-Gambar 1.1
 
 ### Membuat Tabel
 
-Untuk membuat tabel buatlah file baru dengan nama lab3_tabel.html.
+Untuk membuat tabel buatlah file baru dengan nama **lab3_tabel.html**.
 Lalu tambahkan elemen `<table>` untuk menyajikan data dalam bentuk baris dan kolom menggunakan tag `<tr>`, `<th>`, dan `<td>`.
 
 ```html
@@ -77,7 +75,7 @@ Lalu tambahkan elemen `<table>` untuk menyajikan data dalam bentuk baris dan kol
 </html>
 ```
 
-Kode yang digunakan untuk penggabungan sel data,
+Kode yang digunakan untuk penggabungan sel data, dengan menggunakan atribut `<rowspan>` dan `<colspan>`.
 
 ```html
 <table border="1" cellpadding="6" cellspacing="0"> 
@@ -108,3 +106,12 @@ Kode yang digunakan untuk penggabungan sel data,
 
 ### Tampilan Web
 ![Tampilan Tabel](https://github.com/tir890/Lab3Web/blob/fbe8f0b137183736a393b612da0d0c9665e5f1d8/Lab3Web/enam.png)
+
+### Membuat Form
+
+Sama seperti langkah-langkah sebelumnya yaitu membuat file baru dengan nama **lab3_form.html**. 
+Membuat form HTML untuk menerima input pengguna menggunakan tag `<form>`.
+Elemen yang digunakan:
+- `<input type="text">` untuk teks
+- `<input type="password">` untuk sandi
+- `<input type="submit">` untuk tombol kirim
